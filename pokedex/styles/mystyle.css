@@ -7,14 +7,33 @@ body{
 }
 
 .header{
+    position: relative;
     background-color: #529ddc;
     color: black;
-    border-width: 0 2px 2px 2px;
+    border-width: 0 2px 0px 2px;
     border-style: solid;
     border-radius: 0 0 10px 10px;
     border-color:  #ffcc01;
     border-radius: 7px;
     
+}
+
+.header::before, .header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #ffcc01;
+}
+
+.header::before {
+    left: 0;
+    width: calc(50% - 27.50%);
+}
+
+.header::after {
+    right: 0;
+    width: calc(50% - 27.50%); 
 }
 
 #logo{
@@ -25,6 +44,7 @@ body{
 }
 
 .input-group{
+    position: relative;
     display:flex;
     width: 55%;
     margin: 0 auto 20px auto;
@@ -37,6 +57,7 @@ body{
     border-radius: 0 0 10px 10px;
     /* padding: 40px; */
 }
+
 
 .input-group label, .input-group input [type=text], .input-group input[type=button]{
     font-size: 1.2em;

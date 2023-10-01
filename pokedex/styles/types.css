@@ -1,5 +1,5 @@
 
-/* Abilitys */
+/* Abilitys border*/
 #ability span {
     border: 1px solid black;
     background-color: lightgrey;
@@ -176,7 +176,7 @@
 }
 
 
-
+/* Types hover change code */
 .fire:hover, .water:hover, .grass:hover, .electric:hover, .psychic:hover, .ice:hover, .dragon:hover, .dark:hover, .fairy:hover, .normal:hover, .fighting:hover, .flying:hover, .poison:hover, .ground:hover, .rock:hover, .bug:hover, .ghost:hover, .steel:hover {
     background-color: beige;
     border-color: black;
