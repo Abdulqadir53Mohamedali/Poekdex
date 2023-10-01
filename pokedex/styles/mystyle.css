@@ -3,13 +3,16 @@ body{
     border : 0;
     margin: 0 ;
     padding:0;
-    background-color: #d2d2d2;
+    background-color: #1e1c1c;
 }
 
 .header{
     background-color: #529ddc;
     color: black;
-    /* border: 7px solid black; */
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+    border-radius: 0 0 10px 10px;
+    border-color:  #ffcc01;
     border-radius: 7px;
     
 }
@@ -26,8 +29,9 @@ body{
     width: 55%;
     margin: 0 auto 20px auto;
     background-color:#529ddc; 
+    border-top:#529ddc;
     padding:20px;
-    border-color: black;
+    border-color: #ffcc01;
     border-width: 0 2px 2px 2px;
     border-style: solid;
     border-radius: 0 0 10px 10px;
@@ -77,9 +81,7 @@ body{
     background-color: white;
     border: 1px solid black;
     margin:10px;
-    -webkit-box-shadow: 10px 10px 48px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 48px -8px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 48px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 48px -8px rgb(226, 213, 28);
     padding:20px;
 
 }
@@ -90,9 +92,9 @@ body{
 
 .main-image{
     position:absolute;
-    right: -20px;
-    bottom: -30px;
-    width:150px;
+    right: -27px;
+    bottom: -20px;
+    width:160px;
     z-index:1;
     border-radius :50%;
     border: 2px solid #000;
@@ -104,3 +106,19 @@ body{
     width: 100%/*!important*/;
 }
 
+
+#types{
+    margin-bottom: 20px;
+}
+
+#ability{
+    margin-top: 20px;
+}
+
+#PS{
+    background-color: #ffcc01;
+    border-color: black;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    
+}
